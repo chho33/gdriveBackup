@@ -3,5 +3,6 @@
 dir_path=dir_somewhere
 filename=filename
 gdrive_dir_id=gdrive_dir_id
+upload_type=multipart
 
-./upload.sh -d $dir_path -f $filename -r $gdrive_dir_id
+./upload.sh -d $dir_path -f $filename -r $gdrive_dir_id -t $upload_type

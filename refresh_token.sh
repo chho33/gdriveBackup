@@ -1,3 +1,5 @@
+#!/bin/bash
+
 work_dir=/data/projects/gdrive
 refresh_token=$(jq -r .refresh_token $work_dir/gdrive_access.json)
 client_id=$(jq -r .installed.client_id $work_dir/credentials.json)
